@@ -1,7 +1,7 @@
 import Logo from "../components/Logo";
-import TwitterIcon from '../components/TwitterIcon';
-import LinkedInIcon from '../components/LinkedInIcon';
-import InstagramIcon from '../components/InstagramIcon';
+import TwitterIcon from "../components/TwitterIcon";
+import LinkedInIcon from "../components/LinkedInIcon";
+import InstagramIcon from "../components/InstagramIcon";
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
         <Logo />
 
         <p>
-          @2020 Startupz <br />
+          @ 2023 Startupz <br />
           All rights reserved.
         </p>
       </div>
@@ -27,7 +27,10 @@ export default function Footer() {
       <div className="flex flex-col w-1/2 md:w-3/12 my-8 md:my-0">
         <div>
           <h1 className="footer-title">Contact</h1>
-          <p className="text-[silver]">World Trade Center - The Hague Prinses Margrietplantsoen 33 2595 AM The Hague The Netherlands</p>
+          <p className="text-[silver]">
+            World Trade Center - The Hague Prinses Margrietplantsoen 33 2595 AM
+            The Hague The Netherlands
+          </p>
           <button className="text-primary mt-4">Send us an email</button>
         </div>
       </div>
@@ -43,4 +46,4 @@ export default function Footer() {
       </div>
     </div>
   );
-};
+}
